@@ -1,0 +1,17 @@
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\kernel\service\src\syslog_cli.c
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\kernel\service\inc\syslog.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\driver\chip\inc\hal_uart.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\driver\chip\inc\hal_define.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\inc\hal_feature_config.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\driver\CMSIS\Include\core_cm4.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\syslog_cli.o: ..\..\..\..\..\kernel\service\inc\syslog_cli.h

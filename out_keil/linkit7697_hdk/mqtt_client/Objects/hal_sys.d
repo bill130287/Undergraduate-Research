@@ -1,0 +1,9 @@
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\hal_sys.o: ..\..\..\..\..\driver\chip\mt7687\src\common\hal_sys.c
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\hal_sys.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\hal_sys.o: ..\..\..\..\..\driver\chip\mt7687\inc\hal_sys.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\hal_sys.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\hal_sys.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\hal_sys.o: ..\..\..\..\..\driver\chip\mt7687\src\common\include\low_hal_wdt.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\hal_sys.o: ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\hal_sys.o: ..\..\..\..\..\driver\chip\mt7687\inc\type_def.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\hal_sys.o: ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h

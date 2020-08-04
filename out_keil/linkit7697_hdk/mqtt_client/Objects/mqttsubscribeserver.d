@@ -1,0 +1,11 @@
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\mqttsubscribeserver.o: ..\..\..\..\..\middleware\third_party\mqtt\MQTTPacket\src\MQTTSubscribeServer.c
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\mqttsubscribeserver.o: ..\..\..\..\..\middleware\third_party\mqtt\MQTTPacket\src\MQTTPacket.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\mqttsubscribeserver.o: ..\..\..\..\..\middleware\third_party\mqtt\MQTTPacket\src\MQTTConnect.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\mqttsubscribeserver.o: ..\..\..\..\..\middleware\third_party\mqtt\MQTTPacket\src\MQTTPublish.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\mqttsubscribeserver.o: ..\..\..\..\..\middleware\third_party\mqtt\MQTTPacket\src\MQTTSubscribe.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\mqttsubscribeserver.o: ..\..\..\..\..\middleware\third_party\mqtt\MQTTPacket\src\MQTTUnsubscribe.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\mqttsubscribeserver.o: ..\..\..\..\..\middleware\third_party\mqtt\MQTTPacket\src\MQTTFormat.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\mqttsubscribeserver.o: ..\..\..\..\..\middleware\third_party\mqtt\MQTTPacket\src\StackTrace.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\mqttsubscribeserver.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\mqttsubscribeserver.o: ..\..\..\..\..\middleware\third_party\mqtt\MQTTPacket\src\MQTTPacket.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\mqttsubscribeserver.o: D:\ARM\ARMCC\Bin\..\include\string.h

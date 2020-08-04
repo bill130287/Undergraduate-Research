@@ -1,0 +1,465 @@
+Dependencies for Project 'gpio_configure_pull_state', Target 'Target 1': (DO NOT MODIFY !)
+F (..\src\main.c)(0x5BE2D578)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\main.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\main.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\main.d)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\inc\hal.h)(0x5A0C1B24)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_log.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_adc.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\inc\hal_gdma.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\inc\hal_gpio.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_pinmux_define.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\inc\hal_gpt.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\inc\hal_nvic.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\inc\hal_uart.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\top.h)(0x5A0C1B2E)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\include\hal_I2C.h)(0x5A0C1B2E)()
+F (..\..\..\..\..\driver\chip\mt7687\src\common\include\hal_i2s_internal.h)(0x5A0C1B2E)()
+F (..\..\..\..\..\driver\chip\mt7687\src\common\include\i2c.h)(0x5A0C1B2E)()
+F (..\..\..\..\..\driver\chip\mt7687\src\common\include\low_hal_adc.h)(0x5A0C1B2E)()
+F (..\..\..\..\..\driver\chip\mt7687\src\common\top.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\top.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\top.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\top.d)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\top.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\spi_flash.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_flash.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+F (..\..\..\..\..\driver\chip\mt7687\src\hal_nvic_internal.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_nvic_internal.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_nvic_internal.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_nvic_internal.d)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_nvic_internal.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_nvic.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+F (..\..\..\..\..\driver\chip\mt7687\src\hal_nvic.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_nvic.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_nvic.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_nvic.d)
+I (..\..\..\..\..\driver\chip\inc\hal_nvic.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_nvic_internal.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_log.h)(0x5A0C1B2E)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\..\..\..\..\driver\chip\mt7687\src\hal_gpio.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_gpio.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_gpio.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_gpio.d)
+I (..\..\..\..\..\driver\chip\inc\hal_gpio.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_pinmux_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\low_hal_gpio.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_eint.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\pinmux.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_log.h)(0x5A0C1B2E)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\hal_gpio_7687.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_gpio_7687.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_gpio_7687.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_gpio_7687.d)
+I (..\..\..\..\..\driver\chip\inc\hal_eint.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\inc\hal_gpio.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_pinmux_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\hal_gpio_7687.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\pinmux.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\nvic.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\hal_pinmux.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_nvic.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_log.h)(0x5A0C1B2E)
+I (D:\ARM\ARMCC\include\assert.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\inc\hal_gpt.h)(0x5A0C1B24)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\dma.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\dma.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\dma.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\dma.d)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\nvic.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\dma_hw.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\dma_sw.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\debug.h)(0x5A0C1B2E)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\inc\hal_nvic.h)(0x5A0C1B24)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\hal_pinmux.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_pinmux.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_pinmux.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_pinmux.d)
+I (..\..\..\..\..\driver\chip\inc\hal_gpio.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_pinmux_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\top.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\hal_pinmux.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\hal_gpio_7687.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_eint.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\pinmux.h)(0x5A0C1AF0)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\low_hal_gpio.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\low_hal_gpio.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\low_hal_gpio.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\low_hal_gpio.d)
+I (..\..\..\..\..\driver\chip\inc\hal_eint.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\inc\hal_gpio.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_pinmux_define.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\low_hal_gpio.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\pinmux.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\hal_gpio_7687.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_log.h)(0x5A0C1B2E)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\pinmux.c)(0x5A0C1AF0)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\pinmux.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\pinmux.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\pinmux.d)
+I (..\..\..\..\..\driver\chip\inc\hal_gpio.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_pinmux_define.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\hal_pinmux.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\pinmux.h)(0x5A0C1AF0)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\nvic.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\nvic.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\nvic.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\nvic.d)
+I (..\..\..\..\..\driver\chip\inc\hal_nvic.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\nvic.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\mem_util.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\timer.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_gpt.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\nvic_extern.h)(0x5A0C1AF0)
+F (..\..\..\..\..\driver\chip\mt7687\src\hal_log.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_log.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_log.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_log.d)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_log.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\inc\hal_adc.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\inc\hal_gdma.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\inc\hal_gpio.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_pinmux_define.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\inc\hal_gpt.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\inc\hal_nvic.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\inc\hal_uart.h)(0x5A0C1B24)
+F (..\..\..\..\..\driver\chip\mt7687\src\hal_uart.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_uart.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_uart.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_uart.d)
+I (D:\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\inc\dma_sw.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (D:\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\uart.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\inc\top.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_log.h)(0x5A0C1B2E)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\inc\hal_uart.h)(0x5A0C1B24)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\uart.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\uart.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\uart.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\uart.d)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\uart.h)(0x5A0C1B2E)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\inc\dma_sw.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (D:\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\uart_hw.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\mem_util.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\inc\timer.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_gpt.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\nvic.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\inc\top.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\dma_hw.h)(0x5A0C1B2E)
+F (..\..\..\..\..\driver\chip\mt7687\src\hal_gpt.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_gpt.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_gpt.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_gpt.d)
+I (..\..\..\..\..\driver\chip\inc\hal_gpt.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (D:\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\inc\timer.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\gpt.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\inc\top.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_log.h)(0x5A0C1B2E)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\timer.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\timer.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\timer.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\timer.d)
+I (..\..\..\..\..\driver\chip\inc\hal_gpt.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\gpt.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\inc\top.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\timer.h)(0x5A0C1B2E)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\gpt.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\gpt.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\gpt.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\gpt.d)
+I (..\..\..\..\..\driver\chip\inc\hal_gpt.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\debug.h)(0x5A0C1B2E)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\gpt.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\inc\top.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\nvic.h)(0x5A0C1AF0)
+I (..\..\..\..\..\driver\chip\mt7687\inc\timer.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_nvic.h)(0x5A0C1B24)
+F (..\..\..\..\..\driver\chip\mt7687\src\hal_i2c_master.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_i2c_master.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_i2c_master.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_i2c_master.d)
+I (..\..\..\..\..\driver\chip\inc\hal_i2c_master.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\hal_I2C.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_i2c.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_i2c.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_i2c.d)
+I (..\..\..\..\..\driver\chip\inc\hal_i2c_master.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+F (..\..\..\..\..\driver\chip\mt7687\src\common\i2c.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\i2c.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\i2c.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\i2c.d)
+I (..\..\..\..\..\driver\chip\inc\hal_i2c_master.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+F (..\..\..\..\..\driver\chip\mt7687\src\hal_adc.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_adc.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_adc.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_adc.d)
+I (..\..\..\..\..\driver\chip\inc\hal_adc.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (D:\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\dma_hw.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\dma_sw.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\debug.h)(0x5A0C1B2E)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_nvic_internal.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_nvic.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\mem_util.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\inc\timer.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_gpt.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_efuse.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\mt7687\src\common\include\low_hal_adc.h)(0x5A0C1B2E)
+F (..\..\..\..\..\driver\chip\mt7687\src\hal_spi_slave.c)(0x5A0C1B2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_spi_slave.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_spi_slave.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\hal_spi_slave.d)
+I (..\..\..\..\..\driver\chip\inc\hal_spi_slave.h)(0x5A0C1B24)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\chip\inc\hal_define.h)(0x5A0C1AF0)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\inc\hal_feature_config.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+F (.\startup_mt7687.s)(0x5A0C1B40)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524"--list ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\listings\startup_mt7687.lst --xref -o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\startup_mt7687.o --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\startup_mt7687.d)
+F (..\src\system_mt7687.c)(0x5A0C1B40)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\include -I ..\..\..\..\..\kernel\rtos\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include -I ..\..\..\..\..\driver\CMSIS\Include -I ..\..\..\..\..\kernel\service\inc -I ..\..\..\..\..\driver\chip\inc -I ..\..\..\..\..\driver\chip\mt7687\inc -I ..\..\..\..\..\driver\chip\mt7687\src\common\include -I ..\..\common\inc -I ..\..\..\..\..\middleware\third_party\lwip\ports\include -I ..\..\..\..\..\middleware\third_party\lwip\src\include\lwip -I ..\..\..\..\..\middleware\MTK\verno\inc --c99-I.\RTE\_Target_1-ID:\ARM\PACK\MediaTek\MTx\4.6.1\driver\CMSIS\Device\MTK\mt7687\Include-ID:\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\system_mt7687.o --omf_browse ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\system_mt7687.crf --depend ..\..\..\..\..\out_keil\linkit7697_hdk\gpio_configure_pull_state\objects\system_mt7687.d)
+I (D:\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cm4.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h)(0x5A0C1AEE)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687_cm4_hw_memmap.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\chip\mt7687\inc\type_def.h)(0x5A0C1B2E)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h)(0x5A0C1B22)
+I (..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\exception_mt7687.h)(0x5A0C1B22)
+I (D:\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\..\driver\chip\mt7687\inc\top.h)(0x5A0C1B2E)
+I (..\inc\flash_map.h)(0x5A0C1B40)
+I (..\..\..\..\..\driver\chip\mt7687\inc\hal_cache_hw.h)(0x5A0C1B2E)

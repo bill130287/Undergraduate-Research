@@ -1,0 +1,13 @@
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: ..\..\..\..\..\driver\board\linkit7697_hdk\external_flash\src\bsp_flash_config.c
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: ..\..\..\..\..\driver\chip\mt7687\inc\hal_platform.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: ..\..\..\..\..\driver\chip\inc\hal_define.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: ..\inc\hal_feature_config.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\mt7687.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: ..\..\..\..\..\driver\CMSIS\Include\core_cm4.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: ..\..\..\..\..\driver\CMSIS\Include\core_cmInstr.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: ..\..\..\..\..\driver\CMSIS\Include\core_cmFunc.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: ..\..\..\..\..\driver\CMSIS\Include\core_cmSimd.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\system_mt7687.h
+..\..\..\..\..\out_keil\linkit7697_hdk\mqtt_client\objects\bsp_flash_config.o: ..\..\..\..\..\driver\board\linkit7697_hdk\external_flash\inc\bsp_flash_config.h

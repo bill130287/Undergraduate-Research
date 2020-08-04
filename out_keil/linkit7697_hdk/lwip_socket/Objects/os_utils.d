@@ -1,0 +1,9 @@
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\os_utils.o: ..\..\..\..\..\middleware\MTK\wifi_service\combo\src\wifi_os_ext\os_utils.c
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\os_utils.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\os_utils.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\os_utils.o: D:\ARM\ARMCC\Bin\..\include\string.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\os_utils.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\os_utils.o: ..\..\..\..\..\middleware\MTK\wifi_service\combo\inc\os.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\os_utils.o: ..\..\..\..\..\driver\chip\mt7687\inc\type_def.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\os_utils.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\..\..\..\out_keil\linkit7697_hdk\lwip_socket\objects\os_utils.o: ..\..\..\..\..\driver\CMSIS\Device\MTK\mt7687\Include\memory_attribute.h
