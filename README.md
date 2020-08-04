@@ -8,3 +8,4 @@ Graduation Project In The University
 *   Python/GetData_GUI is for collecting data and saving as csv
 *   Python/Inference is to classify the gestrues and display the result on the screen
 *   The detail of this research is in Writter_Report/ .
+*   Demo_video: demo the wearable device how to work
