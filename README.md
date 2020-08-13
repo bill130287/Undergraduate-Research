@@ -9,3 +9,4 @@ Graduation Project In The University
 *   Python/Inference is to classify the gestrues and display the result on the screen
 *   The detail of this research is in Writter_Report/ .
 *   Demo_video: demo the wearable device how to work
+*   Matlab: Analyze the data of EMG and convert the data in time domain into the frequency domain
